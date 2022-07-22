@@ -15,11 +15,12 @@
 
 #menubar {
 
-    padding: 4% 4% 0% 12.5%;
-    font-size: 16px;
+    padding: 4% 1% 0% 12.9%;
+    font-size: 20px;
 }
 
 
+.abouttindog,
 .container-fluid {
     background-color: rgb(253, 70, 101);
 }
@@ -28,13 +29,16 @@ ul {
     list-style-type: none;
     padding-right: 14%;
     padding-left: 10%;
+    margin-left: min(220px);
 }
 
 li a {
     color: rgb(239, 229, 229);
-    padding: 17px 10px;
+    padding: 17px 2px;
     float: right;
-    padding-left: 6px;
+    padding-left: 3.6%;
+    font-family: Ubuntu;
+
 }
 
 li a:hover {
@@ -46,10 +50,14 @@ header {
 }
 
 
-/* ====================================================== */
+/* ===about tin dog 1======== */
 
 #abouttindog {
-    padding: 32px 12.5% 0% 13.9%;
+    padding: 55px 12.5% 0% 13.9%;
+    height: 20%;
+
+
+
 }
 
 h1 {
@@ -78,23 +86,146 @@ h1 {
 
 .box2 {
     float: right;
-    width: 31.4%;
+    width: 30.4%;
 
     /* outline: 3px solid red; */
     transform: rotate(21deg);
-    margin-right: 13%;
+    margin-right: 1%;
     /* margin-top: 1%; */
     object-fit: cover;
 
 }
 
-img {
+.img-iphone {
 
-    width: 90%;
-    height: 100%;
+    min-width: 210px;
+    max-width: 220px;
+    margin-left: min(15px);
     object-fit: cover;
-
     /* border: 5px solid black; */
-    padding-top: 14%;
+    padding-top: 9%;
 
 }
+
+.buttons {
+    padding-top: 10%;
+
+
+
+}
+
+button {
+    letter-spacing: 1.2px;
+    font-family: sans-serif;
+
+}
+
+#button1 {
+    background-color: #292b29;
+    color: white;
+
+}
+
+#button2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 12px;
+
+}
+
+.divider {
+    margin-top: -7.2%;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+
+}
+
+.abouttindog1 {
+
+
+    position: relative;
+    margin-top: -3.2%;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+
+}
+
+.icons {
+    color: rgb(255, 127, 105);
+    font-size: 29px;
+
+
+}
+
+h4 {
+    padding-top: 10px;
+    color: rgb(85, 80, 80);
+    font-size: 23px;
+    font-weight: 600;
+    font-family: ubumtu;
+}
+
+.description {
+
+    color: rgb(126, 122, 122);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: arial;
+}
+
+/* ======about tin dog 2======== */
+
+.abouttindog2 {
+    background-color: rgb(255, 127, 105);
+    width: 100%;
+    padding-left: 0;
+    margin-top: 6%;
+    position: relative;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Ubuntu;
+    padding-top: 10px;
+    padding-left: 13%;
+    padding-right: 13%;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    line-height: 150%;
+    font-size: 35px;
+}
+
+.arrow {
+    margin-top: 10%;
+    font-size: 30px;
+
+}
+
+a {
+    color: whitesmoke;
+}
+
+.img-dog{
+border-radius: 50%;
+max-width: 8%;
+max-height: 8%;
+margin-left:39%;
+margin-top:1%;
+display:inline-flex;
+}
+p{ 
+    display:inline-flex;
+    
+    font-style:italic;
+    color:aliceblue;
+    padding-left:20px;
+    
+}
+
