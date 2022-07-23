@@ -189,7 +189,7 @@ h4 {
 
 }
 
-h2 {
+.tindogdescription {
     text-align: center;
     font-family: Ubuntu;
     padding-top: 10px;
@@ -212,20 +212,107 @@ a {
     color: whitesmoke;
 }
 
-.img-dog{
-border-radius: 50%;
-max-width: 8%;
-max-height: 8%;
-margin-left:39%;
-margin-top:1%;
-display:inline-flex;
-}
-p{ 
-    display:inline-flex;
-    
-    font-style:italic;
-    color:aliceblue;
-    padding-left:20px;
-    
+.img-dog {
+    border-radius: 50%;
+    max-width: 8%;
+    max-height: 8%;
+    margin-left: 39%;
+    margin-top: 1%;
+    display: inline-flex;
 }
 
+.prc {
+    display: inline-flex;
+
+    font-style: italic;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.sponsor {
+
+    margin: 13% 9% 10%;
+
+
+
+}
+
+.sponsors {
+    height: 35x;
+    width: 130px;
+
+}
+
+
+
+.sp4 {
+    margin-top: 2px;
+    height: 25px;
+    width: 150px;
+}
+
+
+
+.pricing {
+    text-align: center;
+    padding-top: 6%;
+    color: rgb(12, 12, 12);
+    padding-bottom: 5%;
+    border: 2px solid rgb(161, 33, 33);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.prce {
+
+
+    font-style: italic;
+    color: rgb(164, 164, 154)
+}
+
+.pricecard {
+
+    margin-left: 1%;
+    margin-right: 0%;
+    width: 270px;
+    margin-top: 2%;
+
+}
+
+.card-body {
+    border: 2px solid rgb(240, 233, 233);
+    color: rgb(183, 177, 167);
+
+}
+
+.card-header {
+    border: 2px solid rgb(240, 233, 233);
+    background-color: rgb(242, 243, 247);
+
+}
+
+h2 {
+    color: #292b29
+}
+
+.signup {
+    width: 90%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    background-color: #2a2c2a;
+
+}
+
+.signup:hover {
+    color: white;
+}
+
+.white:hover {
+    color: black;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid #292b29;
+}

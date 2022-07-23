@@ -18,7 +18,7 @@
 
 <body>
 
-
+    <!-- =========Implemented navbar boostrap======================== -->
     <header>
         <nav class="navbar navbar-inverse container-fluid" id="menubar">
 
@@ -26,14 +26,15 @@
             </div>
 
             <ul id="menu">
-                <li class="nav-item"><a href="#"><span class="download"></span>Download </a></li>
-                <li><a href="#"><span class="pricing"></span> Pricing</a></li>
-                <li><a href="#"><span class="contact"></span>Contact</a></li>
+                <li class="nav-item"><a href="#">Download </a></li>
+                <li class="nav-item"><a href="#">Pricing</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
 
         </nav>
     </header>
     <main>
+        <!-- =========Implemented card boostrap======================== -->
         <section class="abouttindog container-fluid" id="abouttindog">
 
 
@@ -45,7 +46,7 @@
                             class="bi bi-google-play"></i>Download</button>
                 </div>
             </div>
-            <div class="box2" id="box-2"><img class="img-iphone"src="images\iphone6.png"></div>
+            <div class="box2" id="box-2"><img class="img-iphone" src="images\iphone6.png"></div>
         </section>
         <div class="divider"></div>
         <section class="abouttindog1 icons container-fluid " id="abouttindog">
@@ -71,45 +72,130 @@
                 <div class="row">
                     <div class="col-sm-1 text-center arrow"> <a><i class="bi bi-arrow-bar-left"></i></a></div>
                     <div class="col-sm-10 text-center">
-                        <h2> I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.
+                        <h2 class="tindogdescription"> I no longer have to sniff other dogs for love. I've found the
+                            hottest Corgi on TinDog.
                             Woof.</h2>
                     </div>
                     <div class="col-sm-1 text-center arrow"><a><i class="bi bi-arrow-bar-right"></i></a></div>
                 </div>
             </div>
-            <img class="img-dog" src="\images\dog-img.jpg" alt="dog"><p>Pebbles, New York</p>
+            <img class="img-dog" src="\images\dog-img.jpg" alt="dog">
+            <p class="prc">Pebbles, New York</p>
             <div class="cotaniner">
                 <div class="row sponsor">
-                    <div class="col-sm-2 text-center "> </div>
-                    <div class="col-sm-2 text-center"> </div>
-                    <div class="col-sm-2 text-center"></div>
-                    <div class="col-sm-2 text-center"></div>
+                    <div class="col-sm-3 text-center sponsor1"> <img class="sponsors" src="images\TechCrunch.png"
+                            alt="sponsor"></div>
+                    <div class="col-sm-3 text-center sponsor2"><img class="sponsors" src="\images\tnw.png"
+                            alt="sponsor"> </div>
+                    <div class="col-sm-3 text-center sponsor3"><img class="sponsors" src="images\bizinsider.png"
+                            alt="sponsor"></div>
+                    <div class="col-sm-3 text-center sponsor4"><img class="sponsors sp4" src="images\mashable.png"
+                            alt="sponsor"></div>
                 </div>
+
             </div>
 
-        </section>
-        </section>
 
         </section>
+        </section>
+
+        </section>
 
 
+        <!-- =========Implemented card boostrap nested in grid======================== -->
+
+        <section class="pricing" id="pricing">
+
+            <h2>A plan for Every Dog's Needs</h2>
+            <p class="prce">Simple and affordable price plans for you and your dog.</p>
+            <div class="row price">
+                <div class="col-sm-3 text-center pricecard ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h4>Chihuahua
+                                </h4>
+                            </div>
+                            <div class="card-text">
+                                <h2>Free</h2>
+                                <p>5 Matches Per Day</p>
+                                <p>10 Messages Per Day</p>
+                                <p>Unlimited App Usages</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-lg signup white">Sign
+                                    up</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
 
-        <section class="pricing" id="pricing"></section>
+                <div class="col-sm-3 text-center pricecard ">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h4>Labrador
+                                </h4>
+                            </div>
+                            <div class="card-text">
+                                <h2>$49/mo</h2>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Matches</p>
+                            </div>
+
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-lg signup">Sign
+                                    up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-3 text-center pricecard">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h4>Mastiff
+                            </div>
+                            <div class="card-text">
+                                <h2>$99/mo</h2>
+                                <p>Priority </p>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Matches</p>
+                            </div>
+
+                            <div class="card-footer">
+
+                                <button type="button" class="btn btn-lg signup">
+                                    Sign
+                                    up
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
 
         <section class="download" id="download"></section>
 
 
     </main>
-    <!-- <div id="container1">
-        <div id="box-1" class="box">Box 1dsadddddddddddddddddddddddddddddox 1dsadddddddddddddddddddddddddddddddddddddddddddddosax 1dsadddddddddddddddddddddddddddddddddddddddddddddox 1dsaddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</div>
-        <div id="box-2" class="box">Box 2</div>s
-        <div id="box-3" class="box">Box 3</div>
-        <div id="box-4" class="box">Box 4</div>
-        <div id="box-5" class="box">Box 5</div>
-      </div> -->
 
-    <footer class="contacts" id="contacts"></footer>
+
+
+    </footer>
+
 
 </body>
 
