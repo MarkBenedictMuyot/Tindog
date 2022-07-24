@@ -255,37 +255,57 @@ a {
 
 
 
-.pricing {
+#pricing {
+    padding-top: 4%;
     text-align: center;
-    padding-top: 8%;
-    color: rgb(12, 12, 12);
-    padding-bottom: 12%;
-    border: 2px solid rgb(161, 33, 33);
-    padding-left: 15%;
-    padding-right: 15%;
-    border: 3px solid white;
+
+
+
+
+
+
+
 
 }
 
+.price {
+
+    color: rgb(12, 12, 12);
+    padding-bottom: 10%;
+    border: 2px solid rgb(161, 33, 33);
+    border: 3px solid white;
+    margin-right: 10%;
+    margin-left: 15%;
+
+
+}
+
+
 .prce {
 
-
+    text-align: center;
     font-style: italic;
-    color: rgb(164, 164, 154)
+    color: rgb(164, 164, 154);
+
+
+
 }
 
 .pricecard {
 
-    margin-left: 1%;
-    margin-right: 0%;
-    width: 270px;
+    margin-left: 4%;
     margin-top: 2%;
+
 
 }
 
+
 .card-body {
+
     border: 2px solid rgb(240, 233, 233);
     color: rgb(183, 177, 167);
+
+
 
 }
 
@@ -296,7 +316,8 @@ a {
 }
 
 h2 {
-    color: #292b29
+    color: #292b29;
+
 }
 
 .signup {
